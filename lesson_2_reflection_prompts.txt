@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+First of all, we can create the repository in a directory that already contatins files or empty file.( Guess: repository means that we are makeing the directory that we can do version controls --> what it means that we make a directory the git repository )
+    If you initialize a repository, then we create a new git repository, then we will be able to see .git in the directory.
+        Also, for the git status, you will see that both files are listed as untracked files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory has all the files that's in directory.
+and staging area is the stage that you put files to be commited on, lastly repository is the place where you saved all the commits.
+    It's possible to make user to choose what a bundles of commits the user want to save for the changes. And Repository will be able to show the history of commits more logically and specifically.
