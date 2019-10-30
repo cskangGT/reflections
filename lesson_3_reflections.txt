@@ -1,2 +1,8 @@
 When would you want to create a remote repository rather than keeping all your work in local?
+
 when you need to work together with the team so that you can share your local work with the team on-line.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+becuase the user's using git-server to save all the commits on the Github and it will be hard to save all the commits automatically in terms of usage of server. And also, when we pull the data from Github, it's easy to pull if you get specified by the specific changes that you've pushed on GitHub.
