@@ -10,3 +10,38 @@ How is the staging area different from the working directory and the repository?
 Working directory has all the files that's in directory.
 and staging area is the stage that you put files to be commited on, lastly repository is the place where you saved all the commits.
     It's possible to make user to choose what a bundles of commits the user want to save for the changes. And Repository will be able to show the history of commits more logically and specifically.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can do double check using git diff --staged so that I make sure the one is what I want to put in the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+The branch function of Git will be so helpful when you try to get built an application as many different versions of the application in terms of keeping the original one so that they can check out the original one even after you try a lot of versions of the original one. (ex, experimental version of an app)
+Also, it will be good to comparmentalize the works yourself(comparmentalize : 분류하다)
+
+How do the diagrams help you visualize the branch structure?
+
+It's helpful to make me understand what the reachability means in terms of branching.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+If you merged two branches into one master branch, all the commits will be in the history of the mater branch and able to see the history of one of branch even for doing git log from a merged master branch.
+Because Diagram helps user to understand the concepts of merging branches from diverging to becoming a merged branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
+Git
+
+Pros : You don't need to meet the person who is working together to merge it for all the merging required commits.
+
+Cons : if it's the case that git can't tell the difference becuase their name is different and have same function on it, it might get conflits.
+and also, it will be hard to work it on the conflict alone because we might not know how other team members will think about conflicts.
+
+Merging manually
+
+Pros : it's good to see conflicts together so that they can work on the bugs right at that moment together, then there will be no conflicts.
+
+Cons : they actually have to meet up in person.
