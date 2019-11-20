@@ -6,3 +6,21 @@ when you need to work together with the team so that you can share your local wo
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 becuase the user's using git-server to save all the commits on the Github and it will be hard to save all the commits automatically in terms of usage of server. And also, when we pull the data from Github, it's easy to pull if you get specified by the specific changes that you've pushed on GitHub.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+folk : cloning other's repository to my own repository on github
+
+clones : you can copy the repository from the one's on Github to your own computer
+            you can also copy other local repository to your another local repository.
+
+branches : you are keeping the origin to make another brench that's starting from the origin.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+if you know the last known state of the remote stored locally, then you can fetch the new commit that's happend in GitHub into the last known state of the remote, then you can actually prevent conflicts between local commit and remote commit when both of these were heading to the same branch(commit)
+
+0 <-- 0 <-- 0
+
