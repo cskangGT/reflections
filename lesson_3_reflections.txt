@@ -24,3 +24,9 @@ if you know the last known state of the remote stored locally, then you can fetc
 
 0 <-- 0 <-- 0
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would collaborate with the co-worker at the same spot.
+And I will be required to check each other's code to review and give feedback,
+Communicating would be easier, but it requires that each of us should be in the same spot to work together.
+
